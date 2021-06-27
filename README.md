@@ -8,7 +8,7 @@ Syntax files for Yul, the intermediate language for the EVM by the [Solidity](ht
  Add the following line to your ~/.vimrc:
 
 ```
-Plug 'tomlion/vim-solidity'
+Plug 'mattdf/vim-yul'
 ```
 
 
