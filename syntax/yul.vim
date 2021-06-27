@@ -15,7 +15,7 @@ syn match    yulFuncCall          /\zs[a-zA-Z_$][0-9a-zA-Z_$]*\ze(.*)/
 syn keyword EVMDialect stop add sub mul div sdiv mod smod exp not lt gt slt sgt eq iszero and or xor byte shl shr sar addmod mulmod signextend keccak256 pc pop mload mstore mstore8 sload sstore msize gas address balance selfbalance caller callvalue calldataload calldatasize calldatacopy codesize codecopy extcodesize extcodecopy returndatasize returndatacopy extcodehash create create2 call callcode delegatecallcode staticcall return revert selfdestruct invalid log0 log1 log2 log3 log4 chainid origin gasprice blockhash coinbase timestamp number difficulty gaslimit
 
 syn keyword ControlFlow          for while
-syn keyword Control              if case switch default
+syn keyword Control              if case switch default break continue
 syn keyword Component            code
 syn keyword Object               object
 syn keyword Lang                 let leave
